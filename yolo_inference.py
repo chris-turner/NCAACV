@@ -5,7 +5,7 @@ model = YOLO('models/best.pt')
 #results = model.predict('videos/08fd33_4.mp4', save=True)
 results = model.predict('videos/AmariLatimer.mp4', save=True)
 
-print(results[0])
-print('-----------------------')
-for box in results[0].boxes:
-    print(box)
+#print(results[0])
+#print('-----------------------')
+#for box in results[0].boxes:
+#   print(box)
