@@ -1,0 +1,6 @@
+yolov8m.pt
+training/*
+videos/*
+runs/*
+
+!training/football_training_yolo_v5.ipynb
